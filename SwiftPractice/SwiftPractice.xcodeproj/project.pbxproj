@@ -10,7 +10,7 @@
 		CE53CFC825345ACD0087CF75 /* SwiftPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53CFC725345ACD0087CF75 /* SwiftPracticeApp.swift */; };
 		CE53CFCC25345AD00087CF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE53CFCB25345AD00087CF75 /* Assets.xcassets */; };
 		CE53CFCF25345AD00087CF75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE53CFCE25345AD00087CF75 /* Preview Assets.xcassets */; };
-		CE53CFD825345B140087CF75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53CFD725345B140087CF75 /* ContentView.swift */; };
+		CE53CFDC25345DD70087CF75 /* MainLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53CFDB25345DD70087CF75 /* MainLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		CE53CFCB25345AD00087CF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE53CFCE25345AD00087CF75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE53CFD025345AD00087CF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE53CFD725345B140087CF75 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../MyProject/MyProject/ContentView.swift; sourceTree = "<group>"; };
+		CE53CFDB25345DD70087CF75 /* MainLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				CE53CFC725345ACD0087CF75 /* SwiftPracticeApp.swift */,
-				CE53CFD725345B140087CF75 /* ContentView.swift */,
 				CE53CFCB25345AD00087CF75 /* Assets.xcassets */,
 				CE53CFD025345AD00087CF75 /* Info.plist */,
 				CE53CFCD25345AD00087CF75 /* Preview Content */,
+				CE53CFDB25345DD70087CF75 /* MainLayout.swift */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE53CFC825345ACD0087CF75 /* SwiftPracticeApp.swift in Sources */,
-				CE53CFD825345B140087CF75 /* ContentView.swift in Sources */,
+				CE53CFDC25345DD70087CF75 /* MainLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
